@@ -64,8 +64,8 @@ void ofApp::draw(){
     fbo.end();
     
     ofPushMatrix();
-    ofTranslate(0, ofGetHeight());
-    ofRotate(-90);
+    ofTranslate(ofGetWidth(), 0);
+    ofRotate(90);
     fbo.draw(0, 0);
     ofPopMatrix();
 
