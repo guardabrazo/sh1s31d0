@@ -48,6 +48,9 @@ public:
     string bodyText;
     
     bool changeColor = false;
+    
+    int advances = 0;
+    int yPos;
 
 };
 

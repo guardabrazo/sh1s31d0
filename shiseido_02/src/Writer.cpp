@@ -43,6 +43,8 @@ Writer::Writer(){
             highIndices.push_back(i);
         }
     }
+    
+    yPos = ofGetWidth() * 0.1;
 }
 
 void Writer::update(){
@@ -97,13 +99,18 @@ void Writer::render(){
     }
     
     bodyTextBlock.wrapTextX(width * 0.8);
-    bodyTextBlock.drawLeft(width * 0.1, ofGetWidth() * 0.1);
+    
+    bodyTextBlock.drawLeft(width * 0.1, yPos);
 }
 
 void Writer::advance(){
     
+    advances ++;
     if (textPos < fullText.size() - maxWordsDisplayed) {
         textPos += 30;
+    }
+    if (advances > 5) {
+        yPos -= 20;
     }
     
 }
@@ -118,6 +125,8 @@ void Writer::advanceTo(int wordNumber){
 
 void Writer::reset(){
     textPos = 0;
+    advances = 0;
+    yPos = ofGetWidth() * 0.1;
 }
 
 void Writer::resetTimer(){

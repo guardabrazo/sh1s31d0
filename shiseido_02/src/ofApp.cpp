@@ -33,6 +33,15 @@ void ofApp::draw(){
     
 //    sineWave.renderWave();
     writer.render();
+    ofSetColor(201, 214, 213);
+    
+    
+    ofDrawRectangle(0, 0, ofGetHeight(), ofGetWidth()*0.1);
+    
+    ofPushMatrix();
+    ofTranslate(0, ofGetWidth()*0.9);
+    ofDrawRectangle(0, 0, ofGetHeight(), ofGetWidth()*0.1);
+    ofPopMatrix();
     
     fbo.end();
     
@@ -48,7 +57,6 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-
     if (key == 'f') {
         ofToggleFullscreen();
     }
