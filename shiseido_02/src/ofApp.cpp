@@ -11,6 +11,8 @@ void ofApp::setup(){
     fbo.begin();
     ofClear(255);
     fbo.end();
+    ofHideCursor();
+    ofToggleFullscreen();
     
 }
 
@@ -69,7 +71,7 @@ void ofApp::keyPressed(int key){
         ofToggleFullscreen();
     }
     
-    if (key == ' ') {
+    if (key == 't') {
         writer.advance();
     }
     
@@ -82,7 +84,7 @@ void ofApp::keyPressed(int key){
         writer.reset();
     }
     
-    if (key == 't') {
+    if (key == ' ') {
         writer.resetTimer();
     }
     

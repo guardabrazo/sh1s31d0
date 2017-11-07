@@ -3,6 +3,8 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
+    ofHideCursor();
+    ofToggleFullscreen();
     ofSetBackgroundColor(201, 214, 213);
     
     vector<string> fonts = {"PlayfairDisplay-Regular.ttf", "PlayfairDisplay-Bold.ttf"};

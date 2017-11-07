@@ -17,7 +17,8 @@ void ofApp::setup(){
     fbo.end();
     
     text = "Un proyecto basado en la inteligencia\nartificial IBM Watson";
-    
+    ofHideCursor();
+    ofToggleFullscreen();
 }
 
 //--------------------------------------------------------------

@@ -16,7 +16,6 @@ class ofApp : public ofBaseApp{
 		void keyPressed(int key);
 
     
-    SineWave sineWave;
     Writer writer;
     
     ofFbo fbo;

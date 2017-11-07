@@ -29,7 +29,7 @@ Writer::Writer(){
     
     timerEnd = true;
     time0 = ofGetElapsedTimeMillis();
-    timerSpeed = 0.25;
+    timerSpeed = 0.1;
     interval = ofRandom(timerSpeed * 0.5, timerSpeed * 2) * 1000;
     
     textBlock.init("PlayfairDisplay-Regular.ttf", 50);
