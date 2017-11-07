@@ -12,15 +12,24 @@ void ofApp::setup(){
     ofClear(255);
     fbo.end();
     
+    sineWave.input = 2;
+    sineWave.audioPlayer.play();
+    
+    
+    
+    ofHideCursor();
+    ofToggleFullscreen();
 }
 
 
 //--------------------------------------------------------------
 void ofApp::update(){
 
+    writer.update();
+    
     sineWave.update();
     sineWave.calcWave();
-    writer.update();
+    
     
 }
 

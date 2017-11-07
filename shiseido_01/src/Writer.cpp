@@ -51,26 +51,31 @@ void Writer::update(){
     displayText = "";
     bodyText = "";
     
+    cout << textPos << " " << maxWordsDisplayed << endl;
+    
+    cout << "1";
     if (textPos > maxWordsDisplayed) {
         displayText += "...";
     }
     
-    
-    
+    cout << "2";
     for (int i = 0; i < maxWordsDisplayed; i++) {
         displayText += (splittedText[textPos + i] + ' ');
     }
     textBlock.setText(displayText);
     
+    cout << "3";
     for (int i = 0; i < textPos + maxWordsDisplayed; i++) {
         if (ofIsStringInString(splittedHighText[i], "*")) {
 //            splittedHighText[i].pop_back();
         }
-        bodyText += splittedHighText[i - maxWordsDisplayed] + ' ';
+        if(i - maxWordsDisplayed > 0)
+            bodyText += splittedHighText[i - maxWordsDisplayed] + ' ';
     }
     bodyTextBlock.setText(bodyText);
     
     
+    cout << "4";
     
     float timer = ofGetElapsedTimeMillis() - time0;
     
@@ -79,12 +84,14 @@ void Writer::update(){
         advance();
         resetTimer();
     }
+    
+    cout << "5" << endl;
 
 }
 
 void Writer::render(){
     //    ofDrawBitmapString(displayText, 100, 100);
-    textBlock.setColor(40, 40, 40, 255);
+   textBlock.setColor(40, 40, 40, 255);
     textBlock.wrapTextX(width * 0.8);
     textBlock.drawCenter(width * 0.5, width * 0.6);
     

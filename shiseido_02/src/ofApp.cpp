@@ -20,8 +20,6 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
 
-    sineWave.update();
-    sineWave.calcWave();
     writer.update();
     
 }
@@ -50,23 +48,7 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    
-    if (key == '1') {
-        sineWave.input = 1;
-    }
 
-    if (key == '2') {
-        sineWave.input = 2;
-    }
-
-    if (key == 's' ) {
-        sineWave.audioPlayer.stop();
-    }
-
-    if (key == 'p') {
-        sineWave.audioPlayer.play();
-    }
-    
     if (key == 'f') {
         ofToggleFullscreen();
     }

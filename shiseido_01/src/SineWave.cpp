@@ -22,9 +22,9 @@ SineWave::SineWave(){
     
     lineWeight = 5;
     
-    bufferSize = 256;
+    bufferSize = 512;
     int sampleRate = 44100;
-    int channels = 2;
+    int channels = 1;
     
     left.assign(bufferSize, 0.0);
     right.assign(bufferSize, 0.0);
@@ -45,10 +45,18 @@ void SineWave::update(){
     scaledVol = ofMap(smoothedVol, 0.0, 0.17, 0.0, 1.0, true);
     
     
+    cout << audioPlayer.isLoaded() << endl;
+    cout <<" A "  << endl;
+    
+    
     soundBuffer = audioPlayer.getCurrentSoundBuffer(bufferSize);
     //ANALYZE SOUNDBUFFER:
+    cout <<" AA "  << endl;
+    cout << soundBuffer.size() << endl;
+    
     audioAnalyzer.analyze(soundBuffer);
     
+    cout <<" B "  << endl;
     float left = audioAnalyzer.getValue(POWER, 0, 0.9);
     float right = audioAnalyzer.getValue(POWER, 1, 0.9);
     float rms = (left + right) * 0.5;
@@ -62,6 +70,7 @@ void SineWave::update(){
     }
     
     amplitude = ofMap(power, 0, 1, 50, 300);
+    cout <<" C "  << endl;
 
 }
 
