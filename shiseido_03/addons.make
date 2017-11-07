@@ -1,0 +1,3 @@
+ofxEasing
+ofxJSON
+ofxTextSuite

@@ -1,0 +1,335 @@
+WATSON $ node getInsights.js  / 
+{
+ /  . "word_count": 27172,
+ /  . "processed_language": "es",
+ /  . "personality": [
+ /  . . {
+ /  . . . "trait_id": "big5_openness",
+ /  . . . "name": "Apertura a experiencias",
+ /  . . . "category": "personality",
+ /  . . . "percentile": 0.9952157489802053,
+ /  . . . "children": [
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_adventurousness",
+ /  . . . . . "name": "Audacia",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.9924092772314486
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_artistic_interests",
+ /  . . . . . "name": "Intereses artísticos",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.9691344625403492
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_emotionality",
+ /  . . . . . "name": "Emocionalidad",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.9901353029953082
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_imagination",
+ /  . . . . . "name": "Imaginación",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.9716538053212014
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_intellect",
+ /  . . . . . "name": "Intelecto",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.987143519916797
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_liberalism",
+ /  . . . . . "name": "Desafío a la autoridad",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.850297112034214
+ /  . . . . }
+ /  . . . ]
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "big5_conscientiousness",
+ /  . . . "name": "Responsabilidad",
+ /  . . . "category": "personality",
+ /  . . . "percentile": 0.5066612413048462,
+ /  . . . "children": [
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_achievement_striving",
+ /  . . . . . "name": "Necesidad de éxito",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.6097993511003376
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_cautiousness",
+ /  . . . . . "name": "Cautela",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.7498639815143695
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_dutifulness",
+ /  . . . . . "name": "Obediencia",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.860612041788866
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_orderliness",
+ /  . . . . . "name": "Disciplina",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.3792022509115841
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_self_discipline",
+ /  . . . . . "name": "Autodisciplina",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.49442971659326324
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_self_efficacy",
+ /  . . . . . "name": "Autoeficacia",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.09094838046348752
+ /  . . . . }
+ /  . . . ]
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "big5_extraversion",
+ /  . . . "name": "Extroversión",
+ /  . . . "category": "personality",
+ /  . . . "percentile": 0.2179124463452098,
+ /  . . . "children": [
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_activity_level",
+ /  . . . . . "name": "Nivel de actividad",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.150101050056607
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_assertiveness",
+ /  . . . . . "name": "Seguridad en uno mismo",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.5290975946646393
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_cheerfulness",
+ /  . . . . . "name": "Alegría",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.882397121140069
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_excitement_seeking",
+ /  . . . . . "name": "Búsqueda de emociones",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.9002113367466924
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_friendliness",
+ /  . . . . . "name": "Simpatía",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.5708791349625782
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_gregariousness",
+ /  . . . . . "name": "Sociabilidad",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.26894386294269707
+ /  . . . . }
+ /  . . . ]
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "big5_agreeableness",
+ /  . . . "name": "Amabilidad",
+ /  . . . "category": "personality",
+ /  . . . "percentile": 0.8195304911962841,
+ /  . . . "children": [
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_altruism",
+ /  . . . . . "name": "Altruismo",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.7637056912891254
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_cooperation",
+ /  . . . . . "name": "Cooperación",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.9370871278295403
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_modesty",
+ /  . . . . . "name": "Modestia",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.6892404545011829
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_morality",
+ /  . . . . . "name": "Intransigencia",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.8905825075436204
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_sympathy",
+ /  . . . . . "name": "Compasión",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.8896738385633904
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_trust",
+ /  . . . . . "name": "Confianza",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.7768842632039586
+ /  . . . . }
+ /  . . . ]
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "big5_neuroticism",
+ /  . . . "name": "Rango emocional",
+ /  . . . "category": "personality",
+ /  . . . "percentile": 0.822340405704478,
+ /  . . . "children": [
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_anger",
+ /  . . . . . "name": "Vehemencia",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.1635530246490412
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_anxiety",
+ /  . . . . . "name": "Tendencia a la preocupación",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.29607703941252744
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_depression",
+ /  . . . . . "name": "Melancolía",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.19412359794356338
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_immoderation",
+ /  . . . . . "name": "Desmesura",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.4870317336358318
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_self_consciousness",
+ /  . . . . . "name": "Timidez",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.30976349983780505
+ /  . . . . },
+ /  . . . . {
+ /  . . . . . "trait_id": "facet_vulnerability",
+ /  . . . . . "name": "Susceptibilidad a la tensión",
+ /  . . . . . "category": "personality",
+ /  . . . . . "percentile": 0.7976456109951102
+ /  . . . . }
+ /  . . . ]
+ /  . . }
+ /  . ],
+ /  . "needs": [
+ /  . . {
+ /  . . . "trait_id": "need_challenge",
+ /  . . . "name": "Desafío",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.016203290454614216
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_closeness",
+ /  . . . "name": "Familiaridad",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.5759269685475682
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_curiosity",
+ /  . . . "name": "Curiosidad",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.42223182830987777
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_excitement",
+ /  . . . "name": "Entusiasmo",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.054740193073476606
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_harmony",
+ /  . . . "name": "Armonía",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.9746955514598715
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_ideal",
+ /  . . . "name": "Ideal",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.2453742605040199
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_liberty",
+ /  . . . "name": "Libertad",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.2472226677795331
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_love",
+ /  . . . "name": "Amor",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.5562875239063629
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_practicality",
+ /  . . . "name": "Practicidad",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.6095025561390695
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_self_expression",
+ /  . . . "name": "Autoexpresión",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.19393469759090531
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_stability",
+ /  . . . "name": "Estabilidad",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.4943940557398461
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "need_structure",
+ /  . . . "name": "Estructura",
+ /  . . . "category": "needs",
+ /  . . . "percentile": 0.6937614780584472
+ /  . . }
+ /  . ],
+ /  . "values": [
+ /  . . {
+ /  . . . "trait_id": "value_conservation",
+ /  . . . "name": "Conservación",
+ /  . . . "category": "values",
+ /  . . . "percentile": 0.2390728758616641
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "value_openness_to_change",
+ /  . . . "name": "Apertura al cambio",
+ /  . . . "category": "values",
+ /  . . . "percentile": 0.2001155256776297
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "value_hedonism",
+ /  . . . "name": "Hedonismo",
+ /  . . . "category": "values",
+ /  . . . "percentile": 0.5710396732154073
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "value_self_enhancement",
+ /  . . . "name": "Superación personal",
+ /  . . . "category": "values",
+ /  . . . "percentile": 0.04066283837973306
+ /  . . },
+ /  . . {
+ /  . . . "trait_id": "value_self_transcendence",
+ /  . . . "name": "Autotranscendencia",
+ /  . . . "category": "values",
+ /  . . . "percentile": 0.651513297137314
+ /  . . }
+ /  . ],
+ /  . "warnings": []
+ /  }
+ / 

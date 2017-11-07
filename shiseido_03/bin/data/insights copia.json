@@ -1,0 +1,142 @@
+[
+  {
+    "name": "apertura",
+    "value": 0.93
+  },
+  {
+    "name": "audacia",
+    "value": 0.43
+  },
+  {
+    "name": "intereses artísticos",
+    "value": 0.13
+  },
+  {
+    "name": "emocionalidad",
+    "value": 0.53
+  },
+  {
+    "name": "imaginación",
+    "value": 0.63
+  },
+  {
+    "name": "intelecto",
+    "value": 0.23
+  },
+  {
+    "name": "liberalismo",
+    "value": 0.63
+  },
+  {
+    "name": "responsabilidad",
+    "value": 0.74
+  },
+  {
+    "name": "necesidad de éxito",
+    "value": 0.44
+  },
+  {
+    "name": "cautela",
+    "value": 0.23
+  },
+  {
+    "name": "obediencia",
+    "value": 0.69
+  },
+  {
+    "name": "orden",
+    "value": 0.14
+  },
+  {
+    "name": "autodisciplina",
+    "value": 0.37
+  },
+  {
+    "name": "autoconfianza",
+    "value": 0.99
+  },
+  {
+    "name": "extroversión",
+    "value": 0.85
+  },
+  {
+    "name": "activación",
+    "value": 0.47
+  },
+  {
+    "name": "seguridad",
+    "value": 0.28
+  },
+  {
+    "name": "alegría",
+    "value": 0.75
+  },
+  {
+    "name": "entusiasmo",
+    "value": 0.55
+  },
+  {
+    "name": "simpatía",
+    "value": 0.35
+  },
+  {
+    "name": "sociabilidad",
+    "value": 0.25
+  },
+  {
+    "name": "afabilidad",
+    "value": 0.37
+  },
+  {
+    "name": "altruismo",
+    "value": 0.66
+  },
+  {
+    "name": "cooperación",
+    "value": 0.48
+  },
+  {
+    "name": "modestia",
+    "value": 0.77
+  },
+  {
+    "name": "moral",
+    "value": 0.48
+  },
+  {
+    "name": "simpatía",
+    "value": 0.93
+  },
+  {
+    "name": "confianza",
+    "value": 0.36
+  },
+  {
+    "name": "rango emocional",
+    "value": 0.52
+  },
+  {
+    "name": "ira",
+    "value": 0.22
+  },
+  {
+    "name": "ansiedad",
+    "value": 0.43
+  },
+  {
+    "name": "melancolía",
+    "value": 0.63
+  },
+  {
+    "name": "desenfreno",
+    "value": 0.88
+  },
+  {
+    "name": "timidez",
+    "value": 0.22
+  },
+  {
+    "name": "vulnerabilidad",
+    "value": 0.74
+  }
+]
