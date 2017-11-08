@@ -25,7 +25,7 @@ Writer::Writer(){
     
     //    for (int i = 0; i < numberOfWords; i++) {
     //        splittedText.push_back(ofToString(i));
-    //    }
+    //    } 
     
     timerEnd = true;
     time0 = ofGetElapsedTimeMillis();
