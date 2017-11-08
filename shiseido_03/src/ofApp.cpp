@@ -128,7 +128,7 @@ void ofApp::keyPressed(int key){
         ofToggleFullscreen();
     }
     
-    if (key == 'r') {
+    if (key == ' ') {
         for (int i = 0; i < insights.size(); i++) {
             insights[i].easing = !insights[i].easing;
             insights[i].initTime = ofGetElapsedTimef();

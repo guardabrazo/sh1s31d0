@@ -26,7 +26,7 @@ void ofApp::setup(){
 void ofApp::update(){
 
     writer.update();
-    
+      
     sineWave.update();
     sineWave.calcWave();
     

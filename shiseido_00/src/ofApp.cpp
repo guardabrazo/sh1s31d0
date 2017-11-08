@@ -107,7 +107,7 @@ void ofApp::keyReleased(int key){
 void ofApp::drawText(){
     
     ofSetColor(titleColor);
-    firstLine.drawString("Beauty inside", 130, 870);
+    firstLine.drawString("WASO Beauty inside", 130, 870);
     secondLine.drawString(text, 140, 920);
     
 }
